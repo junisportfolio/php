@@ -8,11 +8,11 @@ $db_password = "";
 $db_portnumber = "3306";
 $db_charset = "utf8";
 
-    //데이터베이스 접속 처리
+//데이터베이스 접속 처리
 $con = @mysqli_connect($db_hostname, $db_username, $db_password,
     $db_database, $db_portnumber);
 
-    //접속시 에러 검사
+//접속시 에러 검사
 if(mysqli_connect_errno()){
     printf("<h1>데이터베이스 접속 실패: [Error: %d] %s</h1>",
         mysqli_connect_errno(), mysqli_connect_error());
