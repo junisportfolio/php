@@ -13,7 +13,7 @@ function db_open(){
     $db_hostname = "localhost";
     $db_database = "myschool";
     $db_username = "root";
-    $db_password = "";
+    $db_password = "1234";
     $db_portnumber = "3306";
     $db_charset = "utf8";
 
@@ -36,8 +36,6 @@ function db_open(){
             @mysqli_set_charset($_DB, $db_charset);
         }
     }
-    
-    
 }
 
 /*데이터베이스 접속을 해제한다.*/

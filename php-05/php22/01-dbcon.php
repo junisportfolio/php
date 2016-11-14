@@ -4,7 +4,7 @@
 $db_hostname = "localhost";
 $db_database = "myschool";
 $db_username = "root";
-$db_password = "";
+$db_password = "1234";
 $db_portnumber = "3306";
 $db_charset = "utf8";
 
